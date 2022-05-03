@@ -9,5 +9,4 @@ func TestSoma(t *testing.T) {
 	if total != 30 {
 		t.Errorf("Resultado da some é inválido: Resultado %d. Esperado: %d", total, 30)
 	}
-
 }
